@@ -164,7 +164,7 @@ namespace Placement
                 {
                     position = gridContainerMostRight + 1;
                 }
-            }else {
+            }else {     
                 position = gridContainerMostRight + 1;
                 if (position > Width)
                 {
