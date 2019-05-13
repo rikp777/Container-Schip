@@ -1,0 +1,17 @@
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.deps.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csprojAssemblyReference.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CoreCompileInputs.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfoInputs.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfo.cs
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.runtimeconfig.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.runtimeconfig.dev.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.pdb
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\Placement.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\bin\Debug\netcoreapp2.1\Placement.pdb
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CopyComplete
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.pdb

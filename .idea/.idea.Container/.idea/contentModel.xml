@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\rikpe\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\rikpe\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\rikpe\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\rikpe\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\rikpe\.Rider2019.1\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\rikpe\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rikpe\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Container.-2111664432.00" t="ExcludeRecursive" />
+    <e p="D:\Fontys\Semester_3\Individueel\Algoritmes\Container" t="IncludeFlat">
+      <e p="Container" t="IncludeRecursive">
+        <e p="Algorithm.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Boat.cs" t="Include" />
+          <e p="Container.cs" t="Include" />
+          <e p="Grid.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="Placement.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Placement.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Container.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="UnitTests" t="IncludeRecursive">
+        <e p="AlgorithmTest.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="UnitTests.AssemblyInfo.cs" t="Include" />
+              <e p="UnitTests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UnitTests.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

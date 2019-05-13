@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c16da36-b403-4837-973d-03e584381fc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Container/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Container/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Container/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Container/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Container/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Container/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Container/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Container/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Container/v15/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Container/v15/Server/sqlite3/db.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Container/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Container/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Container/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/Algorithm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/Models/Boat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/Models/Container.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/Models/Grid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/Placement.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Container.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Container.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Container.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Container.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Container.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Release/netcoreapp2.1/Placement.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Release/netcoreapp2.1/Placement.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Release/netcoreapp2.1/Placement.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Release/netcoreapp2.1/Placement.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/bin/Release/netcoreapp2.1/Placement.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Container.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Container.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Container.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Container.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Container.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Container.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Container.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Container.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Container.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Container.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Container.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Placement.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Placement.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Placement.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Placement.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Placement.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Placement.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Placement.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/Placement.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Placement.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Placement.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Placement.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Release/netcoreapp2.1/Placement.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Release/netcoreapp2.1/Placement.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Release/netcoreapp2.1/Placement.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Release/netcoreapp2.1/Placement.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Release/netcoreapp2.1/Placement.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Release/netcoreapp2.1/Placement.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Release/netcoreapp2.1/Placement.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/Release/netcoreapp2.1/Placement.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Container/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/AlgorithmTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/UnitTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/Placement.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/Placement.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/UnitTests.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/UnitTests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/UnitTests.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/UnitTests.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/UnitTests.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Debug/netcoreapp2.1/UnitTests.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Release/netcoreapp2.1/UnitTests.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Release/netcoreapp2.1/UnitTests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Release/netcoreapp2.1/UnitTests.Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/Release/netcoreapp2.1/UnitTests.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/UnitTests.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/UnitTests.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/UnitTests.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Container/Algorithm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+              <folding>
+                <marker date="1557746186000" expanded="false" signature="6:128" ph="..." />
+                <marker date="1557746186000" expanded="true" signature="149:6623" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="178:6621" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="324:677" ph="/* boven container max 30ton ... */" />
+                <marker date="1557746186000" expanded="true" signature="696:1025" ph="/* Sorteer containers op soort ... */" />
+                <marker date="1557746186000" expanded="true" signature="1102:3815" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="1125:1254" ph="/* x is breedte ... */" />
+                <marker date="1557746186000" expanded="true" signature="2104:3716" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="2163:2854" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="2354:2430" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="2455:2836" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="2600:2814" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="2901:2958" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="3007:3702" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="3198:3274" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="3299:3684" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="3444:3662" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="3893:3968" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="4048:4365" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="4267:4327" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="4452:4791" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="4693:4753" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="4863:6470" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="6012:6223" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="6114:6209" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="6322:6416" ph="{...}" />
+                <marker date="1557746186000" expanded="true" signature="6534:6615" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitTests/AlgorithmTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <marker date="1554894518840" expanded="false" signature="6:87" ph="..." />
+                <marker date="1554894518840" expanded="true" signature="109:1791" ph="{...}" />
+                <marker date="1554894518840" expanded="true" signature="142:1789" ph="{...}" />
+                <marker date="1554894518840" expanded="true" signature="224:699" ph="{...}" />
+                <marker date="1554894518840" expanded="true" signature="323:529" ph="{...}" />
+                <marker date="1554894518840" expanded="true" signature="778:1246" ph="{...}" />
+                <marker date="1554894518840" expanded="true" signature="877:1081" ph="{...}" />
+                <marker date="1554894518840" expanded="true" signature="1317:1783" ph="{...}" />
+                <marker date="1554894518840" expanded="true" signature="1416:1619" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Container/Models/Container.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <marker date="1553430419565" expanded="false" signature="6:66" ph="..." />
+                <marker date="1553430419565" expanded="true" signature="94:1194" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="126:224" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="251:1192" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="348:802" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="408:792" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="455:587" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="622:746" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="883:1009" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="941:999" ph="{...}" />
+                <marker date="1553430419565" expanded="true" signature="1075:1185" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Container/Models/Grid.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <marker date="1553252907316" expanded="false" signature="6:66" ph="..." />
+                <marker date="1553252907316" expanded="true" signature="94:514" ph="{...}" />
+                <marker date="1553252907316" expanded="true" signature="118:512" ph="{...}" />
+                <marker date="1553252907316" expanded="true" signature="374:506" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Container/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="62" column="79" lean-forward="true" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="79" />
+              <folding>
+                <marker date="1557744985968" expanded="false" signature="6:90" ph="..." />
+                <marker date="1557744985968" expanded="true" signature="111:4475" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="131:4473" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="251:1551" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="307:478" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="519:690" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="731:901" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="942:1112" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="1152:1323" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="1364:1541" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="1591:4467" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="1778:3171" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="1905:3157" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="2114:3139" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="2395:3117" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="2659:3091" ph="{...}" />
+                <marker date="1557744985968" expanded="true" signature="3204:4457" ph="/* Initialise(); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Container/Algorithm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Container/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Container/Models/Grid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Container/Models/Container.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnitTests/AlgorithmTest.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UnitTests/AlgorithmTest.cs" />
+        <option value="$PROJECT_DIR$/Container/Program.cs" />
+        <option value="$PROJECT_DIR$/Container/Algorithm.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Container" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Container" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Placement" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Container" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UnitTests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.dll" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Container" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Container/Placement.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="0" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Container" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Container/Placement.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Default" type="RunExe" factoryName=".NET Executable" editBeforeRun="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="1" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build Solution" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="RunExe" factoryName=".NET Executable" editBeforeRun="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1/Placement.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Container/bin/Debug/netcoreapp2.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="1" />
+      <option name="USE_MONO" value="1" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build Solution" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Executable.Default" />
+      <item itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c16da36-b403-4837-973d-03e584381fc7" name="Default Changelist" comment="" />
+      <created>1554467386084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554467386084</updated>
+      <workItem from="1554467391261" duration="818000" />
+      <workItem from="1554893902959" duration="1799000" />
+      <workItem from="1554896089769" duration="7014000" />
+      <workItem from="1556533149142" duration="439000" />
+      <workItem from="1557734429618" duration="11219000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21289000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.16455697" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.2743837" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.5021097" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" weight="0.19722815" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Container/Algorithm.cs</url>
+          <line>106</line>
+          <properties documentPath="$PROJECT_DIR$/Container/Algorithm.cs" initialLine="81">
+            <startOffsets>
+              <option value="3792" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3805" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Container/Models/Grid.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <marker date="1553252907316" expanded="false" signature="6:66" ph="..." />
+            <marker date="1553252907316" expanded="true" signature="94:514" ph="{...}" />
+            <marker date="1553252907316" expanded="true" signature="118:512" ph="{...}" />
+            <marker date="1553252907316" expanded="true" signature="374:506" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Container/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="62" column="79" lean-forward="true" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="79" />
+          <folding>
+            <marker date="1557744985968" expanded="false" signature="6:90" ph="..." />
+            <marker date="1557744985968" expanded="true" signature="111:4475" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="131:4473" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="251:1551" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="307:478" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="519:690" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="731:901" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="942:1112" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="1152:1323" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="1364:1541" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="1591:4467" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="1778:3171" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="1905:3157" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="2114:3139" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="2395:3117" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="2659:3091" ph="{...}" />
+            <marker date="1557744985968" expanded="true" signature="3204:4457" ph="/* Initialise(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/AlgorithmTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1554894518840" expanded="false" signature="6:87" ph="..." />
+            <marker date="1554894518840" expanded="true" signature="109:1791" ph="{...}" />
+            <marker date="1554894518840" expanded="true" signature="142:1789" ph="{...}" />
+            <marker date="1554894518840" expanded="true" signature="224:699" ph="{...}" />
+            <marker date="1554894518840" expanded="true" signature="323:529" ph="{...}" />
+            <marker date="1554894518840" expanded="true" signature="778:1246" ph="{...}" />
+            <marker date="1554894518840" expanded="true" signature="877:1081" ph="{...}" />
+            <marker date="1554894518840" expanded="true" signature="1317:1783" ph="{...}" />
+            <marker date="1554894518840" expanded="true" signature="1416:1619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Container/Models/Container.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <marker date="1553430419565" expanded="false" signature="6:66" ph="..." />
+            <marker date="1553430419565" expanded="true" signature="94:1194" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="126:224" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="251:1192" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="348:802" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="408:792" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="455:587" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="622:746" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="883:1009" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="941:999" ph="{...}" />
+            <marker date="1553430419565" expanded="true" signature="1075:1185" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Container/Algorithm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding>
+            <marker date="1557746186000" expanded="false" signature="6:128" ph="..." />
+            <marker date="1557746186000" expanded="true" signature="149:6623" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="178:6621" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="324:677" ph="/* boven container max 30ton ... */" />
+            <marker date="1557746186000" expanded="true" signature="696:1025" ph="/* Sorteer containers op soort ... */" />
+            <marker date="1557746186000" expanded="true" signature="1102:3815" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="1125:1254" ph="/* x is breedte ... */" />
+            <marker date="1557746186000" expanded="true" signature="2104:3716" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="2163:2854" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="2354:2430" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="2455:2836" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="2600:2814" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="2901:2958" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="3007:3702" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="3198:3274" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="3299:3684" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="3444:3662" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="3893:3968" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="4048:4365" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="4267:4327" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="4452:4791" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="4693:4753" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="4863:6470" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="6012:6223" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="6114:6209" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="6322:6416" ph="{...}" />
+            <marker date="1557746186000" expanded="true" signature="6534:6615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

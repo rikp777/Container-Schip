@@ -1,0 +1,11 @@
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Container.deps.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Container.runtimeconfig.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Container.runtimeconfig.dev.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Container.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Container.pdb
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Container.csprojAssemblyReference.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Container.csproj.CoreCompileInputs.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Container.AssemblyInfoInputs.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Container.AssemblyInfo.cs
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Container.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Container.pdb

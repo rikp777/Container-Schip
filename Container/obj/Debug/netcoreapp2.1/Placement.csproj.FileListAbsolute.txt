@@ -1,0 +1,11 @@
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Placement.deps.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Placement.runtimeconfig.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Placement.runtimeconfig.dev.json
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Placement.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\bin\Debug\netcoreapp2.1\Placement.pdb
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Placement.csprojAssemblyReference.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Placement.csproj.CoreCompileInputs.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Placement.AssemblyInfoInputs.cache
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Placement.AssemblyInfo.cs
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Placement.dll
+D:\Fontys\Semester_3\Individueel\Algoritmes\Container\Container\obj\Debug\netcoreapp2.1\Placement.pdb
