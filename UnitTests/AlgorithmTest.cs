@@ -1,6 +1,8 @@
-﻿using Placement;
+﻿using System;
+using Placement;
 using Placement.Models;
 using System.Collections.Generic;
+using System.Linq;
 using Xunit; 
 
 namespace UnitTests
@@ -17,10 +19,11 @@ namespace UnitTests
                 Grid grid = new Grid(i, 0, 0, container);
                 grids.Add(grid);
             }
+            var value = new Container(1, 5000, ContainerType.Valued);
             Algorithm algorithm = new Algorithm();
-            int position = algorithm.NextXPositionToLoad(grids, 0);
+            var position = algorithm.NextXPositionToLoad(grids, new Grid(0,0,0, value));
 
-            Assert.Equal(12, position);
+            Assert.Equal(12, position.X);
         }
         
         [Fact]
@@ -33,8 +36,10 @@ namespace UnitTests
                 Grid grid = new Grid(0, 0, i, container);
                 grids.Add(grid);
             }
+
+            var value = new Container(1, 5000, ContainerType.Valued);
             Algorithm algorithm = new Algorithm();
-            bool succes = algorithm.CanWeightBeOnTopXY(grids, 0, 0);
+            bool succes = Algorithm.CanWeightBeOnTopXY(grids, new Grid(0,0,0, value));
 
             Assert.False(succes);
         }
@@ -48,9 +53,9 @@ namespace UnitTests
                 Grid grid = new Grid(1, 0, i, container);
                 grids.Add(grid);
             }
+            var value = new Container(1, 5000, ContainerType.Valued);
             Algorithm algorithm = new Algorithm();
-            bool succes = algorithm.CanWeightBeOnTopXY(grids, 1, 0);
-
+            bool succes = Algorithm.CanWeightBeOnTopXY(grids, new Grid(0,0,0, value));
             Assert.True(succes);
         }
     }

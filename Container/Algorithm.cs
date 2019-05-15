@@ -8,94 +8,131 @@ namespace Placement
 {
     public class Algorithm
     {
-        private const int Width = 15;
-        private const int Length = 55;
-        private const int MaxOnTop = 300000;
-        
-        //boven container max 30ton
-        //container max 30ton, leeg 4000kg 
-        //container met waarde mag geen container boven zich 
-        //container met waarde alleen voor of achter 
-        //gekoelde container alleen voor 
-        //min 50% van gewicht schip moet geladen zijn 
-        //gewicht links en rechts moet gelijk zijn met marge van 20%
+        /// <summary>Container-Schip
+        ///
+        ///     validatie punten 
+        ///     // boven container max 30ton
+        ///     // container max 30ton, leeg 4000kg
+        ///     // container met waarde mag geen container boven zich 
+        ///     // container met waarde alleen voor of achter
+        ///     // gekoelde container alleen voor
+        ///     // min 50% van gewicht schip moet geladen zijn
+        ///     // gewicht links en rechts moet gelijk zijn met marge van 20%
+        /// 
+        ///
+        ///     #1.    groepeer alle containers in types
+        ///     #2.    probeer gekoelde containers intedelen
+        ///     #3.    zorg dat gekoelde containers gelijk worden geladen met een marge van 20%
+        ///     #4.    check of er nog een container op de onderliggende container mag het maximale gewicht bovenop is 30 Ton inc nieuwe container
+        ///     5.    check of het maximale gewicht bijna wordt overschrede
+        ///     6.    pak de best passende container uit de waarde groep en plaats deze bovenop dit geld alleen voor de eerste en de laatste rij
+        ///     7.    als de eerste rij vol is wordt de laatste rij geladen van het schip hier mogen alleen normale containers met hierboven waardevolle containers
+        ///     8.    de rest van het schip wordt geladen met normale containers deze blijven uiteraard wel in evenwicht
+        ///     9.    er wordt gecontroleerd of de geladen containers een gewicht hebben van meer dan 50% van het gewicht
+        /// 
+        /// </summary>
 
         
-        // Sorteer containers op soort 
-        // Begin op de eerste rij bereken de plaats om container te laden 
-        // plaats de juuste container op deze plaats 
-        // wanneer de eerste rij vol ga naar 2e rij enz kijk hierbij welke containers hier niet mogen 
-        // wanneer eerste xy laag vol is ga naar de 2 laag van z 
         
-
-        public List<Boat> OrderOnBoats(List<Container> containers)
+        /// <summary>
+        ///
+        ///     x = breedte 
+        ///     y = diepte 
+        ///     z = hoogte
+        /// 
+        /// </summary>
+        private const int Width = 5;
+        private const int Length = 10;
+        private const int Weight = 300000;
+        private const int MaxOnTop = 30000;
+        public List<Boat> OrderOnBoats(List<Container> collectionContainers)
         {
-            // x is breedte 
-            // y is diepte 
-            // z is hoogte 
-            
             // Sorteer containers op soort 
-            var Containers = containers;
-            var Cooled = containers.FindAll(container => container.Type == ContainerType.Cooled);
-            var Valued = containers.FindAll(container => container.Type == ContainerType.Valued);
-            //var CooledValued = containers.FindAll(container => container.Type == ContainerType.CooledValued);
-            var Normals = containers.FindAll(container => container.Type == ContainerType.Normal);
-            var boats = new List<Boat>();
-            var boat = new Boat(Width, Length);
-            var grids = new List<Grid>();
-            var y = 0;
-            var z = 0;
-
+            var containers = collectionContainers;
+            var cooled = containers.FindAll(container => container.Type == ContainerType.Cooled).OrderBy(container => container.Weight);
+            var valued = containers.FindAll(container => container.Type == ContainerType.Valued).OrderBy(container => container.Weight);
+            var normals = containers.FindAll(container => container.Type == ContainerType.Normal)
+                .OrderBy(container => container.Weight);
             
+            
+            var boats = new List<Boat>();
+            var boat = new Boat(Width, Length, Weight);
+            var grids = new List<Grid>();
+            var newPositionToLoad = new Grid(0,0, 0, null);
+
+
             if (containers.Count <= 0) return boats;
             
 
             //grids.Add(new Grid(8, 0, z, new Container(Containers.Count, 6000, ContainerType.Normal)));
-            if (Containers.Count > 0)
+            if (containers.Count > 0)
             {
-                foreach (var Cool in Cooled)
+                foreach (var cool in cooled)
                 {
-                    var x = NextXPositionToLoad(grids, y, z);
+                    newPositionToLoad = NextXPositionToLoad(grids, newPositionToLoad);
+                    newPositionToLoad.Container = cool;
 
-                    // if x is groter of kleiner dan de breedte 
-                    if (x > Width || x <= 0)
+                    if (!isOutOfRange(newPositionToLoad))
                     {
-                        z += 1;
-                    }
-                    else
-                    {
-                        x = NextXPositionToLoad(grids, y, z);
-                        if (CanWeightBeOnTopXY(grids, x, y))
+                        if (CanWeightBeOnTopXY(grids, newPositionToLoad))
                         {
-                            var grid = new Grid(x, y, z, Cool);
-                            grids.Add(grid);
-                            Containers.Remove(Cool);
+                            grids.Add(newPositionToLoad);
+                            containers.Remove(cool);
+                        }
+                        else
+                        {
+                            newPositionToLoad.Z = 0;
                         }
                     }
-                }
-
-                foreach (var Value in Valued)
-                {
-                    
-                }
-
-                foreach (var Normal in Normals)
-                {
-                    var x = NextXPositionToLoad(grids, y, z);
-
-                    // if x is groter of kleiner dan de breedte 
-                    if (x > Width || x <= 0)
+                    else
                     {
-                        z += 1;
+                        newPositionToLoad.Z += 1;   
+                    }
+                }
+
+                newPositionToLoad.Y = 1;
+                foreach (var normal in normals)
+                {
+                    newPositionToLoad = NextXPositionToLoad(grids, newPositionToLoad);
+                    newPositionToLoad.Container = normal;
+
+                    
+                    if (!isOutOfRange(newPositionToLoad))
+                    {
+                        if (CanWeightBeOnTopXY(grids, newPositionToLoad))
+                        {
+                            if (!(newPositionToLoad.Y+1 >= Length))
+                            {
+                                grids.Add(newPositionToLoad);
+                                containers.Remove(normal);
+                            }
+                        }
+                        else
+                        {
+                            newPositionToLoad.Y += 1;
+                            newPositionToLoad.Z = 0;
+                        }
                     }
                     else
                     {
-                        x = NextXPositionToLoad(grids, y, z);
-                        if (CanWeightBeOnTopXY(grids, x, y))
+                        newPositionToLoad.Z += 1;   
+                    }
+                }
+
+                foreach (var value in valued)
+                {
+                    newPositionToLoad = NextXPositionToLoad(grids, newPositionToLoad);
+                    newPositionToLoad.Container = value;
+                    
+                    if (!isOutOfRange(newPositionToLoad))
+                    {
+                        if (CanWeightBeOnTopXY(grids, newPositionToLoad))
                         {
-                            var grid = new Grid(x, y, z, Normal);
-                            grids.Add(grid);
-                            Containers.Remove(Normal);
+                            if (newPositionToLoad.Y+1 == Length)
+                            {
+                                grids.Add(newPositionToLoad);
+                                containers.Remove(value);
+                            }
                         }
                     }
                 }
@@ -107,68 +144,75 @@ namespace Placement
             return boats;
         }
 
-        public Grid placeContainerzInGridWithValidation(int x, int y, int z)
+        public static bool isOutOfRange(Grid newPositionToLoad)
         {
-            Grid grid = null;
-            return grid;
+            return newPositionToLoad.X > Width || newPositionToLoad.X<= 0;
         }
         
-        public bool CanWeightBeOnTopXY(List<Grid> grids, int x, int y)
+        public static bool CanWeightBeOnTopXY(List<Grid> grids, Grid newPostionToLoad)
         {
             var success = false;
-            var gridContainers = grids.FindAll(grid => grid.X == x && grid.Y == y);
-            var totalXY = TotalWeight(gridContainers);
+            var gridContainers = grids.FindAll(grid => grid.X == newPostionToLoad.X && grid.Y == newPostionToLoad.Y);
+            var totalXY = TotalWeight(gridContainers) + newPostionToLoad.Container.Weight;
             if (totalXY <= MaxOnTop)
             {
                 success = true;
             }
             return success;
         }
-                
-        public bool CanTypetBeOnTopXY(List<Grid> grids, int x, int y)
+
+        public static bool CanValuedBeOnTop(List<Grid> grids, int x, int y, List<Container> valued)
         {
+            if (y != Length) return false;
+            
             var success = false;
-            var gridContainers = grids.FindAll(grid => grid.Container.Type == ContainerType.Valued || grid.Container.Type == ContainerType.CooledValued);
-            if(!(gridContainers.Count > 0))
+            var gridContainers = grids.FindAll(grid => grid.X == x && grid.Y == y);
+            // can container be on top as last with a total los of 20% on efficiency
+            foreach (var value in valued)
             {
-                success = true;
+                var totalXY = TotalWeight(gridContainers) + value.Weight;
+                 
+                if (totalXY <= MaxOnTop)
+                {
+                    success = true;
+                }
             }
             return success;
         }
 
-        public int NextXPositionToLoad(List<Grid> grids, int y, int z)
+        public Grid NextXPositionToLoad(List<Grid> grids, Grid newPositionToLoad)
         {
             var middle = (int)Math.Ceiling((double)Width / 2);
-            var position = middle;
+            var position = new Grid(middle, newPositionToLoad.Y, newPositionToLoad.Z, null);
             if (grids.Count == 0) return position;
 
             //RECHTS
-            var gridContainersRight = grids.FindAll(grid => grid.Y == y && grid.X >= middle);
+            var gridContainersRight = grids.FindAll(grid => grid.Y == position.Y && grid.X >= middle);
             if (gridContainersRight.Count == 0) return position;
-            var gridContainerMostTopRight = gridContainersRight.FindAll(grid => grid.Z == z);
+            var gridContainerMostTopRight = gridContainersRight.FindAll(grid => grid.Z == position.Z);
             if (gridContainerMostTopRight.Count == 0) return position;
             var gridContainerMostRight = gridContainerMostTopRight.Max(grid => grid.X);
             var totalRight = TotalWeight(gridContainersRight);
             
             //LINKS
-            var gridContainersLeft = grids.FindAll(grid => grid.Y == y && grid.X <= middle);
-            var gridContainersMostTopLeft = gridContainersLeft.Where(grid => grid.Z == z);
+            var gridContainersLeft = grids.FindAll(grid => grid.Y == position.Y && grid.X <= middle);
+            var gridContainersMostTopLeft = gridContainersLeft.Where(grid => grid.Z == position.Z);
             var gridContainerMostLeft = gridContainersMostTopLeft.Min(grid => grid.X);
             var totalLeft = TotalWeight(gridContainersLeft);
             
             // Links met een marge van 20% erbij kleiner dan rechts 
             if(totalLeft * 1.2 < totalRight )
             {
-                position = gridContainerMostLeft - 1;
-                if (position < 0)
+                position.X = gridContainerMostLeft - 1;
+                if (position.X < 0)
                 {
-                    position = gridContainerMostRight + 1;
+                    position.X = gridContainerMostRight + 1;
                 }
             }else {     
-                position = gridContainerMostRight + 1;
-                if (position > Width)
+                position.X = gridContainerMostRight + 1;
+                if (position.X > Width)
                 {
-                    position = gridContainerMostLeft - 1;
+                    position.X = gridContainerMostLeft - 1;
                 }
             }
 
